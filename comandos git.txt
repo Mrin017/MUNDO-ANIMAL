@@ -1,0 +1,60 @@
+…or create a new repository on the command line
+
+git init
+git config user.name "Mrin017"
+git config user.email "yeison10252.jm@gmail.com"
+git add .
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Mrin017/Retos.git
+git push -u origin main
+
+-----------------------
+
+…or push an existing repository from the command line
+
+git remote add origin https://github.com/Mrin017/Retos.git
+git branch -M main
+git push -u origin main
+
+-------------------
+
+Para subir cuando esta modificado
+
+git status
+git add . 
+git commit -m "descripcion" CONFIRMAR CAMBIOS
+git push -u origin main
+
+------------------------
+
+para trabajar desde el repositorio de alguien mas primero se suben los archivos despues se invita a la persona
+ella hace git clone (link del repositorio) y la otra hace git pull (link del repositorio) para tener los nuevos archivos
+
+comando para bajar archivos de un repositorio
+
+$ git pull
+
+$ git pull https://github.com/Mrin017/Prueba06.git
+
+
+---------------
+Comando para ver los cambios (Locales y en la nube)
+
+$ git diff
+
+
+----------------
+Errores comunes
+
+git init (Iniciamos un repositorio local)
+git clone (Copiamos un reporitorio existente en la nube y la bajamos a nuestro pc)
+
+
+No crear un repositorio dentro de otro repositorio
+
+
+-----------
+Volver a un commit amterior
+
+git reset --hard a69efeb935e74c033ddf9a8f7892c4dc825f2a9e
